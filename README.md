@@ -1,7 +1,7 @@
 # DeFT-AN-RT: Real-time Multichannel Speech Enhancement using Dense Frequency-Time Attentive Network and Non-overlapping Synthesis Window
 Official code of "DeFT-AN RT: Real-time Multichannel Speech Enhancement using Dense Frequency-Time Attentive Network and Non-overlapping Synthesis Window, in Proc. Interspeech, 2023"
 
-![Non-overlapping synthesis window](Figure_4.png){: width="50%" height="50%"}
+![Non-overlapping synthesis window](Figure_4.png){: width=100 height=200}
 
 In real-time speech enhancement models based on the short-time Fourier transform (STFT), algorithmic latency induced by the STFT window size can induce perceptible delays, leading to reduced immersion in real-time applications. This study proposes an efficient real-time enhancement model based on a dense frequency-time attentive network (DeFT-AN). The vanilla DeFT-AN consists of cascaded dense blocks and time-frequency transformers, which allow for a smooth transition between time frames through a temporal attention mechanism. To inherit this advantage and reduce algorithmic latency, we develop the lightweight and causal version of DeFT-AN with dual-window size processing that utilizes synthesis windows shorter than analysis windows. The benefit of DeFT-AN in identifying temporal context enables the use of non-overlapping synthesis windows, and experimental results show that the model can achieve the highest performance with the lowest algorithmic latency among STFT-based models.
 
